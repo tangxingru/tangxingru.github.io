@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 | 个人博客</title>
+    <style>
+           beginning {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 84px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+nav {
+  width: 100%;
+  height: 84px;
+  background:rgb(240, 243, 240); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .left {
+  width: 500px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .left h1{
+  color: rgb(13, 13, 13);
+  margin-right: 50%;
+}
+nav .right{
+  width: 500px;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.big img:hover{
+    transform: scale(1.05);
+}
+
+        img{
+            width: 100%;
+            height: 600px;
+        }
+        .section-title{
+            color: rgb(194, 73, 51);
+            font-size: 35px;
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .news-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .news-card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+        .news-card:hover{
+            transform: scale(1.05);
+        }
+
+        .news-card h3 {
+            padding: 15px 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .news-card p {
+            padding: 0 20px 20px;
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .footer-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eff9ef; 
+    color: #fff;
+    padding: 15px 5%;
+    font-size: 18px;}
+      .footer-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 15px 5%;
+    font-size: 18px;}
+        /* 页脚容器 */
+        .footer {
+            /* 固定在页面底部 */
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: pink; /* 截图中的绿色，可自行调整色值 */
+            color: #fff;
+        }
+        /* 页脚导航栏 */
+        .footer-nav {
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+        }
+        .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+        .footer-nav a:hover {
+            text-decoration: underline;
+        }
+        /* 页脚信息区 */
+        .footer-info {
+            padding: 20px 0;
+            text-align: center;
+            color: #f5f5f5;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        /* 加群按钮 */
+        .footer-info .qq-btn {
+            display: inline-block;
+            margin-top: 10px;
+            vertical-align: middle;
+        }
+        .footer-info .qq-btn img {
+            height: 28px;
+            border: none;
+        }
+       
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="beginning">
+        <header class="header">
+            <nav>
+                <div class="left">
+                    <h1>多彩的我们</h1>
+                </div>
+                <ul class="right">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="人物介绍.html">人物介绍</a></li>
+                    <li><a href="作品集.html">作品集</a></li>
+                    <li><a href="关于我们.html">关于我们</a></li>
+                    <li><a href="学期报告.html">学期报告</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+      <div class="big">
+        <img src="imgs/宿舍合照.png" alt="">
+    </div>
+            <!-- 1 -->
+             <section class="container">
+        <div class="news-grid">
+            <div class="news-card">
+                <img src="img/图片30.png" alt="军训">
+                <h3>军训日常</h3>
+                <p>清晨，嘹亮的哨声划破宁静，我们便开始了紧张的一天。整理内务，叠出棱角分明的“豆腐块”，是每日的必修课。烈日下，站军姿是最严峻的考验，汗水顺着脸颊滑落，浸湿衣背，却不敢擦拭分毫。一遍遍枯燥的踢正步、喊口号，磨破了鞋底，喊哑了喉咙。虽然身体疲惫不堪，但看着整齐划一的方阵，心中的成就感便油然而生。</p >
+            </div>
+            <!-- 2 -->
+            <div class="news-card">
+                <img src="img/图片27.jpg" alt="city walk">
+                <h3>美女的日常</h3>
+                <p>夕阳的余晖将校园染成了温暖的橘红色，金色的阳光铺满了操场。我独自一人在跑道上散步，看着篮球场上挥洒汗水的身影，听着耳边传来的欢声笑语。影子被拉得很长，晚风带着一丝凉意，却吹不散心头的暖意。这金色的时刻，记录着我们最美好的青春年华，每一步都走得轻快而明亮。</p >
+            </div>
+            <!-- 3 -->
+            <div class="news-card">
+                <img src="img/图片28.jpg" alt="记录美好的我们">
+                <h3>记录美好的我们</h3>
+                <p>清晨伴着舍友的闹钟醒来，课间歇息时分享零食与趣事，夜晚围坐灯下复盘课业、畅聊理想。偶尔为琐事拌嘴，转眼又相视一笑。小小的宿舍里，藏着朝夕相伴的温暖，是大学时光里最珍贵的宝藏。</p >
+            </div>
+            <!-- 4 -->
+            <div class="news-card">
+                <img src="img/图片29.jpg" alt="芭乐">
+                <h3>海南芭乐</h3>
+                <p>刚收到海南朋友寄来的红心芭乐，还带着海岛的温润气息。切开一个，粉红的果肉像玛瑙般晶莹剔透，散发着浓郁的番石榴香气。咬上一口，汁水瞬间在舌尖爆开，口感脆嫩爽滑，甜中带着一丝恰到好处的微酸。蘸一点酸梅粉，更是别有一番风味，那是属于热带阳光的甜蜜味道，瞬间驱散了所有的疲惫。</p >
+            </div>
+            <!-- 5 -->
+            <div class="news-card">
+                <img src="img/图片23.png" alt="形象大使">
+                <h3>校园形象大使</h3>
+                <p>担任校园形象大使的这段时光，让我收获满满。我不仅锻炼了沟通表达与统筹协调能力，更在接待来宾、组织活动中加深了对母校的热爱。这段经历教会我以责任担当诠释青春风采，以真诚热情传递校园温度，成为更好的自己。</p >
+            </div>
+            <!-- 6 -->
+            <div class="news-card">
+                <img src="img/图片32.png" alt="txr">
+                <h3>校园形象大使</h3>
+                <p>她身着一袭月白色的改良旗袍，剪裁合体，勾勒出曼妙玲珑的身姿。领口精致的盘扣与裙摆上淡淡的水墨兰花，透着一股清雅之气。乌黑的秀发挽成低髻，插着一支碧玉簪，肌肤胜雪，眉眼如画。她步履轻盈，莲步生风，举手投足间尽显东方女性的温婉与端庄，宛如从水墨画中走出的仕女，静谧而美好。
+</p >
+            </div>
+            <!-- 7 -->
+             <div class="news-card">
+               <img src="img/图片33.png" alt="图片33">
+                <h3>主持人体验卡</h3>
+                <p>手持话筒站上台的那一刻，心跳如鼓。紧盯流程表，串联台词、把控节奏，生怕出一丝差错。当听到台下掌声响起，紧张尽数消散，只剩满满的成就感。这场初体验，让我读懂勇气与从容
+</p >
+            </div>
+            <!-- 8 -->
+              <div class="news-card">
+                 <img src="img/图片35.png" alt="图片34">
+                <h3>吃火锅</h3>
+                <p>窗外寒风凛冽，屋内却热气腾腾。桌上的鸳鸯锅底咕嘟咕嘟地翻滚，红油清亮，白汤浓郁，散发着诱人的香气。大家围坐在一起，一边谈笑风生，一边将鲜嫩的羊肉卷、脆爽的毛肚和各色蔬菜纷纷下锅。夹起一块裹满麻酱的肥牛送入口中，麻辣鲜香瞬间在舌尖绽放。这升腾的热气，不仅驱散了冬日的严寒，更温暖了相聚的时光。
+
+</p >
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-nav">
+            <a href=" ">首页</a > |
+            <a href="人物介绍.html">人物介绍</a>
+            <a href="作品集.html">作品集</a>
+            <a href="关于我们.html">关于我们</a>
+            <a href="学期报告.html">学期报告</a>
+           
+        </div>
+        <div class="footer-info">
+           联系方式：12868568896<br>
+            地址: 重庆綦江安防职业学院 邮编:401420<br>
+        </div>
+    </footer>
+    
+
+    
+    <script>
+        // 移动端导航切换
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
